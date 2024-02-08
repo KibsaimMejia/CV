@@ -1,6 +1,7 @@
 # CV - Antonio Kibsaim Mejia Zepeda
 
 **Inventor, Programmer &amp; Full stack Web Developer. Expert in DevOps, JavaScript, Node, Java, Python, MySQL, Linux, +**
+[kibsaim.mejia@protonmail.com](mailto:kibsaim.mejia@protonmail.com)
 
 ## About Me | Acerca de Mi
 
