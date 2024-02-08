@@ -4,9 +4,9 @@
 
 Javascript, Node, Docker, Kubernetes,  Java, SpringBoot, MongoDB, MySQL,  TensorFlow, Jenkins, Python, JDK, SDKs, PostgreSQL, Webpack, W&B, Rust, Redis, C, C++, Go, TensorFlow, Bash, Linux, Git, Typescript, Svelte, Vue,  Angular, React, Puppeteer, Bun, Deno, HTML5, CSS, UX/UI, IONIC, Laravel, PHP, npm, Figma, SASS, Hammerjs, Tslint, Karma, Jasmine, Sonarqube, Jira, Confluence, Express.
 
-**Inventor, Programmer &amp; Full stack Web Developer. Expert in DevOps, JavaScript, Node, Java, Python, MySQL, Linux.
+**Inventor, Programmer &amp; Full stack Web Developer. Expert in DevOps, JavaScript, Node, Java, Python, MySQL, Linux.**
 
-[kibsaim.mejia@protonmail.com](mailto:kibsaim.mejia@protonmail.com)**
+[kibsaim.mejia@protonmail.com](mailto:kibsaim.mejia@protonmail.com)
 
 ![KibsaimMejia_CV](https://github.com/KibsaimMejia/CV/assets/158346959/9ea205d9-a79b-434f-8c12-37effff87a4c)
 
