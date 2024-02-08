@@ -4,7 +4,12 @@
 
 Javascript, Node, Docker, Kubernetes,  Java, SpringBoot, MongoDB, MySQL,  TensorFlow, Jenkins, Python, JDK, SDKs, PostgreSQL, Webpack, W&B, Rust, Redis, C, C++, Go, TensorFlow, Bash, Linux, Git, Typescript, Svelte, Vue,  Angular, React, Puppeteer, Bun, Deno, HTML5, CSS, UX/UI, IONIC, Laravel, PHP, npm, Figma, SASS, Hammerjs, Tslint, Karma, Jasmine, Sonarqube, Jira, Confluence, Express.
 
-**Inventor, Programmer &amp; Full stack Web Developer. Expert in DevOps, JavaScript, Node, Java, Python, MySQL, Linux. [kibsaim.mejia@protonmail.com](mailto:kibsaim.mejia@protonmail.com)**
+**Inventor, Programmer &amp; Full stack Web Developer. Expert in DevOps, JavaScript, Node, Java, Python, MySQL, Linux.
+
+[kibsaim.mejia@protonmail.com](mailto:kibsaim.mejia@protonmail.com)**
+
+![KibsaimMejia_CV](https://github.com/KibsaimMejia/CV/assets/158346959/9ea205d9-a79b-434f-8c12-37effff87a4c)
+
 
 ## About Me | Acerca de Mi
 
@@ -79,9 +84,6 @@ Experto en optimizar y automatizar procesos de desarrollo de software; utilizand
 Comunicador efectivo en inglés y español, con habilidad para presentar ideas técnicas de manera clara y comprensible, tanto en reuniones de equipo como en la documentación de proyectos. Con un enfoque proactivo en la resolución de problemas y un fuerte compromiso con la excelencia en el trabajo, siempre buscando aprender y crecer profesionalmente.
 
 ---
-
-![KibsaimMejia](https://github.com/KibsaimMejia/CV/assets/158346959/71a82b24-f91c-4385-828f-fc672d1809af)
-
 
 ## Signature
 
