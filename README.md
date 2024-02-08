@@ -1,7 +1,10 @@
 # CV - Antonio Kibsaim Mejia Zepeda
 
-**Inventor, Programmer &amp; Full stack Web Developer. Expert in DevOps, JavaScript, Node, Java, Python, MySQL, Linux, +**
-[kibsaim.mejia@protonmail.com](mailto:kibsaim.mejia@protonmail.com)
+## TECHNOLOGIES
+
+Javascript, Node, Docker, Kubernetes,  Java, SpringBoot, MongoDB, MySQL,  TensorFlow, Jenkins, Python, JDK, SDKs, PostgreSQL, Webpack, W&B, Rust, Redis, C, C++, Go, TensorFlow, Bash, Linux, Git, Typescript, Svelte, Vue,  Angular, React, Puppeteer, Bun, Deno, HTML5, CSS, UX/UI, IONIC, Laravel, PHP, npm, Figma, SASS, Hammerjs, Tslint, Karma, Jasmine, Sonarqube, Jira, Confluence, Express.
+
+**Inventor, Programmer &amp; Full stack Web Developer. Expert in DevOps, JavaScript, Node, Java, Python, MySQL, Linux. [kibsaim.mejia@protonmail.com](mailto:kibsaim.mejia@protonmail.com)**
 
 ## About Me | Acerca de Mi
 
@@ -10,10 +13,6 @@ I’m a passionate and versatile Developer, with extensive experience in DevOps,
 Expert in optimizing and automating software development processes, using best practices and agile methodologies like Test-driven development, to deliver high-quality projects on time and form with a user-focused approach and solid analytical ability, ensuring that the end products meet user needs and exceed their expectations.
 
 Effective communicator in English and Spanish, with the ability to present technical ideas clearly and comprehensibly, both in team meetings and project documentation. With a proactive focus on problem-solving and a strong commitment to excellence in work, always seeking to learn and grow professionally.
-
-## TECHNOLOGIES
-
-Javascript, Node, Docker, Kubernetes,  Java, SpringBoot, MongoDB, MySQL,  TensorFlow, Jenkins, Python, JDK, SDKs, PostgreSQL, Webpack, W&B, Rust, Redis, C, C++, Go, TensorFlow, Bash, Linux, Git, Typescript, Svelte, Vue,  Angular, React, Puppeteer, Bun, Deno, HTML5, CSS, UX/UI, IONIC, Laravel, PHP, npm, Figma, SASS, Hammerjs, Tslint, Karma, Jasmine, Sonarqube, Jira, Confluence, Express.
 
 ---
 
