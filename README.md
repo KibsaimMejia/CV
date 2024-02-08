@@ -89,8 +89,11 @@ Thank you, and greetings!
 Inventor, Programmer & Fullstack Web Developer. Expert in Javascript, Node, Java, Python, MySQL, Linux, DevOps, +
 
 Phone: +52-5610521776
+
 [kibsaim.mejia@protonmail.com](mailto:kibsaim.mejia@protonmail.com)
+
 [CV](http://github.com/KibsaimMejia/CV)
+
 [Github](http://github.com/KibsaimMejia/)
 
 ---
