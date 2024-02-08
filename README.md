@@ -81,6 +81,9 @@ Comunicador efectivo en inglés y español, con habilidad para presentar ideas t
 
 ---
 
+![KibsaimMejia](https://github.com/KibsaimMejia/CV/assets/158346959/71a82b24-f91c-4385-828f-fc672d1809af)
+
+
 ## Signature
 
 Gracias!
@@ -100,9 +103,5 @@ Phone: +52-5610521776
 
 ``` bash
 # Internet: "@http(s)://\\ `%20` para escribir espacios en direcciones."
-# [(< Obsidian: [[Link]] >)]
-# [Help!](https://github.com/Kibzai/Programs/blob/main/HELP.md)
-# [ROUTER?](http://192.168.0.1/) || [LOCAL](http://localhost:3000?)
-
-`` '' ""
+ls
 ```
