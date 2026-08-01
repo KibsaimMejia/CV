@@ -1,0 +1,2427 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Antonio Kibsaim Mejia Zepeda - Senior Full-Stack Software Engineer | Software Architect | DevOps & Cloud Engineer with experience in banking and enterprise web applications, V8 optimization, and cloud-native infrastructure."
+    />
+    <meta name="author" content="Antonio Kibsaim Mejia Zepeda" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="keywords"
+      content="Senior Full-Stack Engineer, Software Architect, DevOps, Cloud Engineer, JavaScript, TypeScript, Node.js, React, Vue, Angular, V8, Web Performance, Mexico City, Remote"
+    />
+    <title>
+      Antonio Kibsaim Mejia Zepeda — Senior Full-Stack Software Engineer |
+      Software Architect | DevOps & Cloud Engineer | CV 2026
+    </title>
+
+    <meta
+      property="og:title"
+      content="Antonio Kibsaim Mejia Zepeda — Senior Full-Stack Software Engineer | Software Architect"
+    />
+    <meta
+      property="og:description"
+      content="Full-stack development, cloud architecture, DevOps, and web performance engineering. Specialized in JavaScript/TypeScript, V8 engine internals, and enterprise banking applications."
+    />
+    <meta property="og:type" content="profile" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="profile:first_name" content="Antonio Kibsaim" />
+    <meta property="profile:last_name" content="Mejia Zepeda" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Antonio Kibsaim Mejia Zepeda",
+        "jobTitle": "Senior Full-Stack Software Engineer | Software Architect | DevOps & Cloud Engineer",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mexico City",
+          "addressCountry": "Mexico"
+        },
+        "description": "Senior Full-Stack Software Engineer, Software Architect, and DevOps Engineer with hands-on experience in software development and delivering enterprise web applications and digital platforms. Specialized in JavaScript/TypeScript, Node.js, Java, Spring Boot, React, Vue, Angular, REST APIs, GraphQL, microservices, cloud architecture, DevOps, and web performance engineering.",
+        "knowsLanguage": ["Spanish", "English"],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Universidad Autónoma Metropolitana (UAM)"
+        },
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Software Engineer",
+          "occupationLocation": {
+            "@type": "City",
+            "name": "Mexico City"
+          }
+        }
+      }
+    </script>
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+    <style>
+      :root {
+          --amber-gold: #ffbe0b;
+          --blaze-orange: #fb5607;
+          --neon-pink: #ff006e;
+          --blue-violet: #8338ec;
+          --azure-blue: #3a86ff;
+          --tropical-mint: #10f9bb;
+
+          --primary: var(--azure-blue);
+          --secondary: var(--neon-pink);
+          --accent-1: var(--blue-violet);
+          --accent-2: var(--azure-blue);
+          --accent-3: var(--blaze-orange);
+          --accent-4: var(--neon-pink);
+          --success: var(--tropical-mint);
+          --highlight: var(--amber-gold);
+          --card-bg: #ffffff;
+          --body-bg: #f5f7ff;
+          --text: #1a1a2e;
+          --text-secondary: #1a1a2e;
+          --border: #e1e4ff;
+          --shadow: 0 4px 6px -1px rgba(58, 134, 255, 0.1);
+          --shadow-hover: 0 10px 15px -3px rgba(58, 134, 255, 0.15);
+          --shadow-lg: 0 20px 40px -8px rgba(58, 134, 255, 0.18);
+          --border-radius: 0;
+          --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      [data-theme="dark"] {
+          --primary: var(--azure-blue);
+          --secondary: var(--neon-pink);
+          --accent-1: var(--blue-violet);
+          --accent-2: var(--tropical-mint);
+          --accent-3: var(--blaze-orange);
+          --accent-4: var(--amber-gold);
+          --success: var(--tropical-mint);
+          --highlight: var(--amber-gold);
+          --card-bg: #0a0a1a;
+          --body-bg: #050510;
+          --text: #e0e0ff;
+          --text-secondary: #e0e0ff;
+          --border: #1a1a3a;
+          --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.6);
+          --shadow-hover: 0 10px 15px -3px rgba(58, 134, 255, 0.3);
+          --shadow-lg: 0 20px 40px -8px rgba(58, 134, 255, 0.25);
+      }
+
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family:
+              "Segoe UI",
+              system-ui,
+              -apple-system,
+              sans-serif;
+          transition:
+              background-color 0.3s ease,
+              border-color 0.3s ease;
+      }
+
+      body {
+          background-color: var(--body-bg);
+          color: var(--text);
+          line-height: 1.6;
+          min-height: 100vh;
+          position: relative;
+          overflow-x: hidden;
+      }
+
+      #loader {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: var(--body-bg);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 9999;
+          transition:
+              opacity 0.5s ease,
+              visibility 0.5s ease;
+      }
+      .loader-content {
+          text-align: center;
+      }
+      .spinner {
+          width: 50px;
+          height: 50px;
+          border: 3px solid var(--border);
+          border-top: 3px solid var(--primary);
+          border-radius: 50%;
+          animation: spin 1s linear infinite;
+          margin: 0 auto 20px;
+      }
+      @keyframes spin {
+          0% {
+              transform: rotate(0deg);
+          }
+          100% {
+              transform: rotate(360deg);
+          }
+      }
+      .loader-hidden {
+          opacity: 0;
+          visibility: hidden;
+      }
+
+      .theme-toggle {
+          position: fixed;
+          top: 20px;
+          right: 20px;
+          z-index: 1000;
+      }
+      .theme-btn {
+          background: var(--card-bg);
+          border: 2px solid var(--border);
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: var(--text);
+          font-size: 1.2rem;
+          box-shadow: var(--shadow);
+          transition: var(--transition);
+      }
+      .theme-btn:hover {
+          transform: rotate(30deg) scale(1.1);
+          box-shadow: var(--shadow-hover);
+          background: var(--primary);
+          color: #fff;
+      }
+      .theme-btn:focus-visible {
+          outline: 3px solid var(--primary);
+          outline-offset: 3px;
+      }
+      [data-theme="dark"] .theme-btn .fa-sun {
+          display: block;
+      }
+      [data-theme="dark"] .theme-btn .fa-moon {
+          display: none;
+      }
+      .theme-btn .fa-sun {
+          display: none;
+      }
+
+      header {
+          background: linear-gradient(
+              135deg,
+              var(--blue-violet),
+              var(--neon-pink)
+          );
+          color: white;
+          padding: 2.5rem 0;
+          text-align: center;
+          border-radius: 0;
+          margin-bottom: 2rem;
+          box-shadow: var(--shadow-lg);
+          position: relative;
+          overflow: hidden;
+      }
+      header::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(
+              45deg,
+              transparent 30%,
+              rgba(255, 255, 255, 0.1) 50%,
+              transparent 70%
+          );
+          animation: shimmer 3s infinite;
+          pointer-events: none;
+      }
+      @keyframes shimmer {
+          0% {
+              transform: translateX(-100%);
+          }
+          100% {
+              transform: translateX(100%);
+          }
+      }
+      .name {
+          font-size: 2.8rem;
+          margin-bottom: 0.5rem;
+          font-weight: 700;
+          position: relative;
+          animation: fadeInDown 1s ease;
+          letter-spacing: -0.5px;
+      }
+      .title {
+          font-size: 1.1rem;
+          opacity: 0.9;
+          margin-bottom: 0.3rem;
+          animation: fadeInUp 1s ease 0.3s both;
+          font-weight: 500;
+      }
+
+      .title a {
+          color: var(--tropical-mint); !important;
+      }
+      .header-subtitle {
+          font-size: 1.1rem;
+          color: var(--white);
+          font-weight: 500;
+          margin-top: 0.5rem;
+          position: relative;
+          min-height: 1.5rem;
+          white-space: nowrap;
+      }
+      .header-location {
+          display: inline-block;
+          background: rgba(255, 255, 255, 0.15);
+          color: #fff;
+          padding: 0.4rem 1.2rem;
+          border-radius: 25px;
+          font-size: 0.9rem;
+          margin-top: 0.8rem;
+          animation: fadeInUp 1s ease 0.5s both;
+          backdrop-filter: blur(4px);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      .header-location i {
+          margin-right: 6px;
+          color: var(--tropical-mint);
+      }
+      @property --color-a {
+          syntax: '<color>';
+          initial-value: #8338ec;
+          inherits: false;
+      }
+      @property --color-b {
+          syntax: '<color>';
+          initial-value: #00d4ff;
+          inherits: false;
+      }
+      .experience-badge {
+          display: inline-block;
+          background: linear-gradient(135deg, var(--color-a), var(--color-b));
+          transition: --color-a 0.8s ease, --color-b 0.8s ease, transform 0.3s ease, box-shadow 0.3s ease;
+          color: white;
+          padding: 0.6rem 1.5rem;
+          border-radius: 0;
+          font-weight: 700;
+          margin-top: 1.2rem;
+          font-size: 1.1rem;
+          box-shadow: 0 6px 15px rgba(255, 0, 110, 0.4);
+          cursor: pointer;
+          animation: fadeInUp 1s ease 0.6s both;
+          border: none;
+          position: relative;
+      }
+      .experience-badge:hover {
+        --color-a: #00d4ff;
+        --color-b: #8338ec;
+          transform: translateY(-3px) scale(1.05);
+          box-shadow: 0 10px 25px rgba(255, 0, 110, 0.6);
+      }
+      .experience-badge:focus-visible {
+          outline: 3px solid white;
+          outline-offset: 3px;
+      }
+      @property --color-c {
+          syntax: '<color>';
+          initial-value: #fb5607;
+          inherits: false;
+      }
+      @property --color-d {
+          syntax: '<color>';
+          initial-value: #ffbe0b;
+          inherits: false;
+      }
+      .header-pdf-btn {
+          display: inline-block;
+          background: linear-gradient(135deg, var(--color-c), var(--color-d));
+          transition: --color-c 0.8s ease, --color-d 0.8s ease, transform 0.3s ease, box-shadow 0.3s ease;
+          color: #fff;
+          padding: 0.6rem 1.8rem;
+          font-weight: 700;
+          font-size: 1rem;
+          margin-top: 1.2rem;
+          border: none;
+          cursor: pointer;
+          box-shadow: 0 6px 15px rgba(255, 0, 110, 0.4);
+          text-decoration: none;
+          animation: fadeInUp 1s ease 0.7s both;
+          position: relative;
+      }
+      .header-pdf-btn:hover {
+          --color-c: #ffbe0b;
+          --color-d: #fb5607;
+          transform: translateY(-3px) scale(1.05);
+          box-shadow: 0 10px 25px rgba(255, 0, 110, 0.6);
+      }
+      .header-pdf-btn:focus-visible {
+          outline: 3px solid white;
+          outline-offset: 3px;
+      }
+      @keyframes fadeInDown {
+          from {
+              opacity: 0;
+              transform: translateY(-20px);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }
+      @keyframes fadeInUp {
+          from {
+              opacity: 0;
+              transform: translateY(20px);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }
+
+      .container {
+          max-width: 1400px;
+          margin: 0 auto;
+          padding: 0 20px;
+      }
+      .main-content {
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+          gap: 2rem;
+          margin-bottom: 3rem;
+          animation: fadeIn 1s ease 0.5s both;
+      }
+      @keyframes fadeIn {
+          from {
+              opacity: 0;
+          }
+          to {
+              opacity: 1;
+          }
+      }
+      @media (max-width: 768px) {
+          .main-content {
+              grid-template-columns: 1fr;
+          }
+      }
+
+      .card {
+          background: var(--card-bg);
+          color: var(--text);
+          border-radius: var(--border-radius);
+          padding: 1.8rem;
+          margin-bottom: 1.8rem;
+          box-shadow: var(--shadow);
+          transition: var(--transition);
+          border: 1px solid var(--border);
+          position: relative;
+          overflow: hidden;
+          animation: slideUpFade 0.6s ease-out both;
+      }
+      .card:nth-child(1) {
+          animation-delay: 0.1s;
+      }
+      .card:nth-child(2) {
+          animation-delay: 0.2s;
+      }
+      .card:nth-child(3) {
+          animation-delay: 0.3s;
+      }
+      .card:nth-child(4) {
+          animation-delay: 0.4s;
+      }
+      .card:nth-child(5) {
+          animation-delay: 0.5s;
+      }
+      .card:nth-child(6) {
+          animation-delay: 0.6s;
+      }
+      .card:nth-child(7) {
+          animation-delay: 0.7s;
+      }
+      .card:nth-child(8) {
+          animation-delay: 0.8s;
+      }
+      @keyframes slideUpFade {
+          from {
+              opacity: 0;
+              transform: translateY(20px);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }
+      .card::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 4px;
+          height: 100%;
+          background: linear-gradient(
+              to bottom,
+              var(--neon-pink),
+              var(--azure-blue)
+          );
+          transform: scaleY(0);
+          transition: transform 0.3s ease;
+      }
+      .card:hover {
+          transform: translateY(-8px);
+          box-shadow: var(--shadow-lg);
+          border-color: var(--primary);
+      }
+      .card:hover::before {
+          transform: scaleY(1);
+      }
+      .card h2 {
+          color: var(--text);
+          margin-bottom: 1.2rem;
+          padding-bottom: 0.7rem;
+          border-bottom: 2px solid var(--border);
+          font-size: 1.5rem;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+      }
+      .card h2 i {
+          color: var(--primary);
+      }
+      .card h3 {
+          color: var(--primary);
+          margin: 1rem 0 0.6rem;
+          font-size: 1.1rem;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+      }
+      .card h3 i {
+          color: var(--accent-3);
+      }
+
+      .skills-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.7rem;
+          margin-top: 0.8rem;
+      }
+      .skill-tag {
+          background: var(--body-bg);
+          color: var(--text);
+          padding: 0.5rem 1rem;
+          border-radius: 25px;
+          font-size: 0.85rem;
+          font-weight: 500;
+          border: 2px solid var(--border);
+          cursor: pointer;
+          transition: var(--transition);
+          position: relative;
+          overflow: hidden;
+      }
+      .skill-tag:hover {
+          background: var(--primary);
+          color: white;
+          transform: translateY(-3px);
+          box-shadow: 0 5px 15px rgba(58, 134, 255, 0.3);
+          border-color: var(--primary);
+      }
+      .skill-tag:focus-visible {
+          outline: 3px solid var(--primary);
+          outline-offset: 2px;
+      }
+      .skill-tag.highlight-tag {
+          border-color: var(--tropical-mint);
+          background: rgba(16, 249, 187, 0.08);
+      }
+      .skill-tag.highlight-tag:hover {
+          background: var(--tropical-mint);
+          border-color: var(--tropical-mint);
+          color: #000;
+          box-shadow: 0 5px 15px rgba(16, 249, 187, 0.35);
+      }
+
+      .experience-item {
+          margin-bottom: 1.8rem;
+          padding-bottom: 1.8rem;
+          border-bottom: 1px solid var(--border);
+          position: relative;
+          padding-left: 1.5rem;
+          transition: var(--transition);
+      }
+      .experience-item::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 5px;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background: var(--primary);
+          transition: var(--transition);
+      }
+      .experience-item:hover {
+          padding-left: 2rem;
+      }
+      .experience-item:hover::before {
+          transform: scale(1.5);
+          box-shadow: 0 0 10px var(--primary);
+      }
+      .experience-item:last-child {
+          border-bottom: none;
+          margin-bottom: 0;
+          padding-bottom: 0;
+      }
+      .company {
+          font-weight: 700;
+          color: var(--text);
+          font-size: 1.2rem;
+          margin-bottom: 0.3rem;
+      }
+      .role {
+          color: var(--primary);
+          font-weight: 600;
+          margin: 0.3rem 0;
+          font-size: 1.1rem;
+      }
+      .duration {
+          color: var(--text-secondary);
+          font-size: 0.9rem;
+          margin-bottom: 0.8rem;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+      }
+      .duration i {
+          color: var(--accent-3);
+      }
+      .client-tag {
+          display: inline-block;
+          background: var(--accent-1);
+          color: var(--success);
+          font-size: 0.8rem;
+          font-weight: 600;
+          padding: 0.2rem 0.7rem;
+          border-radius: 15px;
+          margin-bottom: 0.5rem;
+          border: 1px solid rgba(131, 56, 236, 0.2);
+      }
+      .description {
+          color: var(--text-secondary);
+          font-size: 0.95rem;
+          line-height: 1.7;
+          list-style: none;
+          padding: 0;
+      }
+      .description li {
+          margin-bottom: 0.5rem;
+          padding-left: 1.2rem;
+          position: relative;
+      }
+      .description li::before {
+          content: "▸";
+          position: absolute;
+          left: 0;
+          color: var(--primary);
+          font-weight: bold;
+      }
+      .metric-highlight {
+          display: inline-block;
+          background: rgba(16, 249, 187, 0.12);
+          color: #059669;
+          font-weight: 700;
+          padding: 0.15rem 0.6rem;
+          border-radius: 4px;
+          font-size: 0.9rem;
+          border: 1px solid rgba(16, 249, 187, 0.3);
+      }
+      [data-theme="dark"] .metric-highlight {
+          background: rgba(16, 249, 187, 0.18);
+          color: var(--tropical-mint);
+          border-color: rgba(16, 249, 187, 0.4);
+      }
+
+      .about-text {
+          color: var(--text-secondary);
+          margin-bottom: 1rem;
+          line-height: 1.7;
+          font-size: 0.95rem;
+      }
+      .language {
+          display: flex;
+          align-items: center;
+          margin-bottom: 0.8rem;
+      }
+      .language i {
+          color: var(--primary);
+          margin-right: 0.8rem;
+          font-size: 1.2rem;
+      }
+      .engine-expertise {
+          background: linear-gradient(
+              135deg,
+              rgba(58, 134, 255, 0.1),
+              rgba(255, 0, 110, 0.05)
+          );
+          border-radius: var(--border-radius);
+          padding: 1.5rem;
+          margin-top: 1rem;
+          border-left: 4px solid var(--primary);
+          transition: var(--transition);
+      }
+      .engine-expertise:hover {
+          background: linear-gradient(
+              135deg,
+              rgba(58, 134, 255, 0.15),
+              rgba(255, 0, 110, 0.1)
+          );
+          transform: translateY(-3px);
+          box-shadow: 0 8px 25px rgba(58, 134, 255, 0.2);
+      }
+      .engine-expertise h3 {
+          color: var(--text);
+          margin-bottom: 1rem;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+      }
+      .engine-expertise h3 i {
+          color: var(--primary);
+      }
+      .expertise-tag {
+          display: inline-block;
+          background: var(--body-bg);
+          color: var(--text);
+          padding: 0.4rem 0.8rem;
+          border-radius: 20px;
+          font-size: 0.8rem;
+          font-weight: 600;
+          margin-right: 0.5rem;
+          margin-bottom: 0.5rem;
+          border: 2px solid var(--border);
+          transition: var(--transition);
+          cursor: pointer;
+          position: relative;
+          overflow: hidden;
+      }
+      .expertise-tag:hover {
+          background: var(--primary);
+          color: white;
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(58, 134, 255, 0.3);
+          border-color: var(--primary);
+      }
+      .expertise-tag:focus-visible {
+          outline: 3px solid var(--primary);
+          outline-offset: 2px;
+      }
+      .expertise-tag.highlight-tag {
+          border-color: var(--tropical-mint);
+          background: rgba(16, 249, 187, 0.08);
+      }
+      .expertise-tag.highlight-tag:hover {
+          background: var(--tropical-mint);
+          border-color: var(--tropical-mint);
+          color: #000;
+          box-shadow: 0 5px 15px rgba(16, 249, 187, 0.35);
+      }
+
+      .achievement-card {
+          background: linear-gradient(
+              135deg,
+              rgba(255, 190, 11, 0.08),
+              rgba(16, 249, 187, 0.06)
+          );
+          border: 1px solid rgba(255, 190, 11, 0.25);
+          border-radius: var(--border-radius);
+          padding: 1.2rem;
+          margin-bottom: 1rem;
+          transition: var(--transition);
+          cursor: default;
+      }
+      .achievement-card:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 8px 25px rgba(255, 190, 11, 0.2);
+          border-color: var(--highlight);
+      }
+      .achievement-card h4 {
+          color: var(--text);
+          margin-bottom: 0.4rem;
+          font-size: 1rem;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+      }
+      .achievement-card h4 i {
+          color: var(--highlight);
+      }
+      .achievement-card p {
+          color: var(--text-secondary);
+          font-size: 0.9rem;
+          line-height: 1.5;
+          margin: 0;
+      }
+
+      .quote-block {
+          background: var(--card-bg);
+          border-left: 4px solid var(--secondary);
+          padding: 1rem 1.5rem;
+          margin: 1.2rem 0;
+          border-radius: 0 var(--border-radius) var(--border-radius) 0;
+          font-style: italic;
+          color: var(--text-secondary);
+          font-size: 0.95rem;
+          transition: var(--transition);
+      }
+      .quote-block:hover {
+          border-left-color: var(--primary);
+          background: rgba(58, 134, 255, 0.03);
+      }
+
+      .typing-cursor {
+          display: inline-block;
+          color: var(--tropical-mint);
+          font-weight: bold;
+          animation: blink 1s infinite;
+          margin-left: 2px;
+      }
+      @keyframes blink {
+          0%,
+          50% {
+              opacity: 1;
+          }
+          51%,
+          100% {
+              opacity: 0;
+          }
+      }
+      strong {
+          color: var(--primary);
+      }
+      .text-muted {
+          color: var(--text-secondary);
+          font-size: 0.9rem;
+          opacity: 0.8;
+      }
+
+      footer {
+          background: var(--blue-violet);
+          color: white;
+          text-align: center;
+          padding: 2rem;
+          margin-top: 3rem;
+          box-shadow: var(--shadow);
+      }
+      [data-theme="dark"] footer {
+          background: #3d1a8e;
+          color: var(--tropical-mint);
+      }
+      .footer-links {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 1rem;
+          margin: 1.5rem 0;
+          padding: 0 10px;
+      }
+      .footer-links a,
+      .footer-links button {
+          color: rgba(255, 255, 255, 1);
+          text-decoration: none;
+          transition: var(--transition);
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          padding: 0.5rem 1rem;
+          border-radius: 25px;
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          white-space: nowrap;
+          flex-shrink: 0;
+          background: transparent;
+          cursor: pointer;
+          font-size: inherit;
+          font-family: inherit;
+      }
+      [data-theme="dark"] .footer-links a,
+      [data-theme="dark"] .footer-links button {
+          color: var(--tropical-mint);
+      }
+      .footer-links a:hover,
+      .footer-links button:hover {
+          color: var(--tropical-mint);
+          background: rgba(255, 255, 255, 0.1);
+          transform: translateY(-3px);
+          border-color: var(--tropical-mint);
+      }
+      .footer-links a:focus-visible,
+      .footer-links button:focus-visible {
+          outline: 3px solid var(--tropical-mint);
+          outline-offset: 3px;
+      }
+      .footer-pdf-btn {
+          background: linear-gradient(
+              135deg,
+              var(--secondary),
+              var(--primary)
+          ) !important;
+          border-color: var(--secondary) !important;
+          color: #fff !important;
+          font-weight: 600 !important;
+          animation: pulse-btn 2.5s ease-in-out infinite;
+      }
+      @keyframes pulse-btn {
+          0%,
+          100% {
+              box-shadow: 0 0 0 0 rgba(251, 86, 7, 0.4);
+          }
+          50% {
+              box-shadow: 0 0 0 12px rgba(251, 86, 7, 0);
+          }
+      }
+      .footer-pdf-btn:hover {
+          background: linear-gradient(
+              135deg,
+              var(--accent-3),
+              var(--secondary)
+          ) !important;
+          transform: translateY(-3px) scale(1.05) !important;
+          box-shadow: 0 8px 20px rgba(251, 86, 7, 0.5) !important;
+      }
+      .copyright {
+          font-size: 0.9rem;
+          color: rgba(255, 255, 255, 0.7);
+          word-wrap: break-word;
+      }
+      [data-theme="dark"] .copyright {
+          color: rgba(16, 249, 187, 0.7);
+      }
+
+      .scroll-top {
+          position: fixed;
+          bottom: 30px;
+          right: 30px;
+          width: 50px;
+          height: 50px;
+          background: var(--azure-blue);
+          color: white;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          opacity: 0;
+          visibility: hidden;
+          transition: var(--transition);
+          z-index: 100;
+          box-shadow: 0 4px 15px rgba(58, 134, 255, 0.4);
+          border: none;
+      }
+      .scroll-top.show {
+          opacity: 1;
+          visibility: visible;
+      }
+      .scroll-top:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 8px 20px rgba(58, 134, 255, 0.6);
+      }
+      .scroll-top:focus-visible {
+          outline: 3px solid var(--primary);
+          outline-offset: 3px;
+      }
+
+      .floating-circle {
+          position: fixed;
+          border-radius: 50%;
+          background: rgba(255, 0, 110, 0.05);
+          z-index: -1;
+          pointer-events: none;
+          animation: float 20s infinite linear;
+      }
+      @keyframes float {
+          0%,
+          100% {
+              transform: translate(0, 0) rotate(0deg);
+          }
+          25% {
+              transform: translate(100px, 100px) rotate(90deg);
+          }
+          50% {
+              transform: translate(0, 200px) rotate(180deg);
+          }
+          75% {
+              transform: translate(-100px, 100px) rotate(270deg);
+          }
+      }
+
+      .notification {
+          position: fixed;
+          bottom: 100px;
+          left: 50%;
+          transform: translateX(-50%);
+          background: linear-gradient(
+              135deg,
+              var(--primary),
+              var(--secondary)
+          );
+          color: white;
+          padding: 12px 24px;
+          border-radius: 25px;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+          z-index: 1000;
+          animation:
+              slideUp 0.3s ease,
+              fadeOut 0.3s ease 2.7s;
+          font-weight: 500;
+          max-width: 90%;
+          word-wrap: break-word;
+          text-align: center;
+      }
+      @keyframes slideUp {
+          from {
+              transform: translate(-50%, 100%);
+              opacity: 0;
+          }
+          to {
+              transform: translate(-50%, 0);
+              opacity: 1;
+          }
+      }
+      @keyframes fadeOut {
+          from {
+              opacity: 1;
+          }
+          to {
+              opacity: 0;
+          }
+      }
+      @keyframes ripple-animation {
+          to {
+              transform: scale(4);
+              opacity: 0;
+          }
+      }
+
+      @media (max-width: 768px) {
+          .container {
+              padding: 0 15px;
+          }
+          .name {
+              font-size: 2rem;
+              padding: 0 10px;
+          }
+          .title {
+              font-size: 0.9rem;
+              padding: 0 10px;
+          }
+          .header-subtitle {
+              font-size: 0.95rem;
+              padding: 0 10px;
+              white-space: normal;
+          }
+          .experience-badge {
+              font-size: 0.9rem;
+              padding: 0.5rem 1rem;
+              margin: 1rem 10px 0;
+          }
+          .card {
+              padding: 1.2rem;
+              margin-bottom: 1.2rem;
+          }
+          .card h2 {
+              font-size: 1.3rem;
+          }
+          .skills-list {
+              gap: 0.5rem;
+          }
+          .skill-tag {
+              font-size: 0.8rem;
+              padding: 0.4rem 0.8rem;
+          }
+          .company {
+              font-size: 1.1rem;
+          }
+          .role {
+              font-size: 1rem;
+          }
+          .footer-links {
+              gap: 0.5rem;
+              padding: 0 5px;
+          }
+          .footer-links a,
+          .footer-links button {
+              padding: 0.4rem 0.8rem;
+              font-size: 0.85rem;
+          }
+          .scroll-top {
+              width: 45px;
+              height: 45px;
+              bottom: 20px;
+              right: 20px;
+          }
+          .theme-btn {
+              width: 45px;
+              height: 45px;
+              font-size: 1rem;
+          }
+          .metric-highlight {
+              font-size: 0.8rem;
+              padding: 0.1rem 0.4rem;
+          }
+      }
+      @media (max-width: 480px) {
+          .name {
+              font-size: 1.8rem;
+          }
+          .footer-links {
+              flex-direction: column;
+              align-items: center;
+              gap: 0.8rem;
+          }
+          .footer-links a,
+          .footer-links button {
+              width: 100%;
+              max-width: 200px;
+              justify-content: center;
+          }
+          .card {
+              padding: 1rem;
+          }
+          .experience-badge {
+              font-size: 0.85rem;
+              padding: 0.4rem 0.9rem;
+          }
+      }
+      @media (max-width: 320px) {
+          .name {
+              font-size: 1.5rem;
+          }
+          .title {
+              font-size: 0.8rem;
+          }
+          .header-subtitle {
+              font-size: 0.85rem;
+          }
+          .card h2 {
+              font-size: 1.1rem;
+          }
+          .skill-tag {
+              font-size: 0.75rem;
+              padding: 0.3rem 0.6rem;
+          }
+      }
+
+      @media print {
+      @page {
+             size: Letter;
+             margin: 1.2cm 1cm 1cm 1cm;
+         }
+
+         *,
+         *::before,
+         *::after {
+             animation: none !important;
+             transition: none !important;
+             box-shadow: none !important;
+         }
+
+         html, body {
+             width: 100%;
+             min-height: 0 !important;
+             margin: 0 !important;
+             padding: 0 !important;
+             background: #ffffff !important;
+             color: #1a1a2e !important;
+             font-size: 7pt !important;
+             line-height: 1.2 !important;
+             -webkit-print-color-adjust: exact !important;
+             print-color-adjust: exact !important;
+         }
+
+         #loader, .theme-toggle, .scroll-top, .floating-circle,
+         .notification, .typing-cursor, header::before, .card::before,
+         .experience-badge, .header-location, .header-subtitle,
+         .header-pdf-btn, footer, #freelance-hide-print, #perf-hide-print, #focus-hide-print, #mind-hide-print, #dev-hide-print, #edu-hide-print {
+             display: none !important;
+         }
+
+         header {
+             display: block !important;
+             width: 100% !important;
+             background: #8338ec !important;
+             color: #ffffff !important;
+             padding: 0.1in 0.15in !important;
+             margin: 0 0 0.08in 0 !important;
+             border-radius: 0 !important;
+             text-align: center !important;
+         }
+         header .container {
+             padding: 0 !important;
+             max-width: none !important;
+         }
+         header .name {
+             font-size: 13pt !important;
+             line-height: 1.1 !important;
+             margin: 0 !important;
+             color: #ffffff !important;
+         }
+         header .title {
+             font-size: 5.5pt !important;
+             line-height: 1.1 !important;
+             margin: 1px 0 0 0 !important;
+             color: #e0e0ff !important;
+         }
+         header a {
+             color: #e0e0ff !important;
+         }
+
+         .container {
+             width: 100% !important;
+             max-width: none !important;
+             padding: 0 !important;
+             margin: 0 !important;
+         }
+         .main-content {
+             display: block !important;
+             width: 100% !important;
+             margin: 0 !important;
+             padding: 0 !important;
+             overflow: visible !important;
+         }
+         .main-content::after {
+             content: "" !important;
+             display: table !important;
+             clear: both !important;
+         }
+         .main-content > div:first-child {
+             float: left !important;
+             width: 33% !important;
+             max-width: 33% !important;
+             padding-right: 0.1in !important;
+             box-sizing: border-box !important;
+         }
+         .main-content > div:last-child {
+             float: right !important;
+             width: 66% !important;
+             max-width: 66% !important;
+             box-sizing: border-box !important;
+         }
+
+         .card {
+             display: block !important;
+             width: 100% !important;
+             background: #ffffff !important;
+             color: #1a1a2e !important;
+             border: 1px solid #d8d8e5 !important;
+             border-radius: 3px !important;
+             padding: 0.04in 0.08in !important;
+             margin: 0 0 0.04in 0 !important;
+             box-shadow: none !important;
+             page-break-inside: auto !important;
+             break-inside: auto !important;
+         }
+
+          .card h2 {
+              color: #8338ec !important;
+              border-bottom: 1px solid #3a86ff !important;
+              font-size: 8pt !important;
+              line-height: 1.1 !important;
+              margin: 0 0 0.04in 0 !important;
+              padding: 0 0 0.03in 0 !important;
+              display: flex !important;
+              align-items: center !important;
+              gap: 4px !important;
+          }
+
+          .card h2 i {
+              color: #3a86ff !important;
+              font-size: 7pt !important;
+          }
+
+          .skills-list {
+              display: flex !important;
+              flex-wrap: wrap !important;
+              gap: 2px !important;
+              margin: 0 !important;
+          }
+
+          .skill-tag {
+              display: inline-block !important;
+              background: #f0f0f8 !important;
+              color: #1a1a2e !important;
+              border: 1px solid #d5d5e0 !important;
+              border-radius: 8px !important;
+              font-size: 6pt !important;
+              line-height: 1.1 !important;
+              padding: 1px 4px !important;
+              margin: 0 !important;
+              page-break-inside: avoid !important;
+              break-inside: avoid !important;
+          }
+
+          .skill-tag.highlight-tag {
+              border-color: #10f9bb !important;
+              background: #e6faf5 !important;
+          }
+
+          .about-text {
+              color: #444444 !important;
+              font-size: 6.5pt !important;
+              line-height: 1.2 !important;
+              margin: 0 0 0.03in 0 !important;
+          }
+
+          strong {
+              color: #3a86ff !important;
+          }
+
+          .engine-expertise {
+              background: #f8f9ff !important;
+              border-left: 2px solid #3a86ff !important;
+              border-radius: 3px !important;
+              padding: 0.05in !important;
+              margin: 0.04in 0 0 0 !important;
+              page-break-inside: auto !important;
+              break-inside: auto !important;
+          }
+
+          .engine-expertise h3 {
+              font-size: 7pt !important;
+              line-height: 1.1 !important;
+              margin: 0 0 2px 0 !important;
+              color: #3a86ff !important;
+          }
+
+          .expertise-tag {
+              display: inline-block !important;
+              background: #f0f0f8 !important;
+              color: #1a1a2e !important;
+              border: 1px solid #d5d5e0 !important;
+              border-radius: 6px !important;
+              font-size: 5.5pt !important;
+              line-height: 1.1 !important;
+              padding: 1px 3px !important;
+              margin: 1px !important;
+              page-break-inside: avoid !important;
+              break-inside: avoid !important;
+          }
+
+          .experience-item {
+              position: relative !important;
+              padding-left: 0.1in !important;
+              padding-bottom: 0.04in !important;
+              margin-bottom: 0.04in !important;
+              border-bottom: 1px solid #eeeeee !important;
+              page-break-inside: avoid !important;
+              break-inside: avoid !important;
+          }
+
+          .experience-item::before {
+              content: "" !important;
+              position: absolute !important;
+              left: 0 !important;
+              top: 2px !important;
+              width: 4px !important;
+              height: 4px !important;
+              border-radius: 50% !important;
+              background: #3a86ff !important;
+          }
+
+          .experience-item:last-child {
+              margin-bottom: 0 !important;
+              padding-bottom: 0 !important;
+              border-bottom: none !important;
+          }
+
+          .company {
+              font-size: 7.5pt !important;
+              line-height: 1.05 !important;
+              margin: 0 !important;
+              color: #1a1a2e !important;
+          }
+
+          .role {
+              font-size: 6.5pt !important;
+              line-height: 1.05 !important;
+              margin: 1px 0 !important;
+              color: #3a86ff !important;
+          }
+
+          .duration {
+              font-size: 6pt !important;
+              line-height: 1.1 !important;
+              margin: 0 0 2px 0 !important;
+              color: #666666 !important;
+          }
+
+          .duration i {
+              color: #3a86ff !important;
+          }
+
+          .description {
+              font-size: 6pt !important;
+              line-height: 1.2 !important;
+              margin: 0 !important;
+              color: #444444 !important;
+          }
+
+          .description li {
+              margin-bottom: 1px !important;
+              padding-left: 0.08in !important;
+          }
+
+          .description li::before {
+              color: #3a86ff !important;
+          }
+
+          .metric-highlight {
+              font-size: 5.5pt !important;
+              padding: 0 3px !important;
+              border-radius: 2px !important;
+              background: #e6faf5 !important;
+              color: #059669 !important;
+              border: 1px solid #b7ece0 !important;
+          }
+
+          .achievement-card {
+              background: #fffef9 !important;
+              border: 1px solid #e8e0c0 !important;
+              border-radius: 3px !important;
+              padding: 0.05in !important;
+              margin-bottom: 0.04in !important;
+          }
+
+          .achievement-card h4 {
+              font-size: 7pt !important;
+              margin-bottom: 1px !important;
+              color: #1a1a2e !important;
+          }
+
+          .achievement-card p {
+              color: #1a1a2e !important;
+              font-size: 6pt !important;
+          }
+
+          .quote-block {
+              border-left: 3px solid #ff006e !important;
+              padding: 0.04in 0.08in !important;
+              margin: 0.04in 0 !important;
+              font-size: 6.5pt !important;
+          }
+
+          .language {
+              display: flex !important;
+              align-items: center !important;
+              font-size: 6.5pt !important;
+              line-height: 1.1 !important;
+              margin: 0 0 2px 0 !important;
+          }
+
+          .language i {
+              color: #3a86ff !important;
+              font-size: 6.5pt !important;
+              margin-right: 4px !important;
+          }
+
+          a {
+              color: #3a86ff !important;
+              text-decoration: none !important;
+          }
+
+          h1,
+          h2,
+          h3,
+          p {
+              color: #1a1a2e !important;
+              orphans: 2 !important;
+              widows: 2 !important;
+          }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="loader" aria-hidden="true">
+      <div class="loader-content">
+        <div class="spinner"></div>
+        <h3 style="color: var(--text)">Loading CV...</h3>
+      </div>
+    </div>
+
+    <div class="theme-toggle">
+      <button
+        class="theme-btn"
+        id="themeToggle"
+        aria-label="Toggle dark/light theme"
+        title="Toggle theme"
+      >
+        <i class="fas fa-moon" aria-hidden="true"></i>
+        <i class="fas fa-sun" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <div class="print-wrapper">
+      <header>
+        <div class="container">
+          <h1 class="name">ANTONIO KIBSAIM MEJIA ZEPEDA</h1>
+          <p class="title">
+            SENIOR FULL-STACK SOFTWARE ENGINEER | SOFTWARE ARCHITECT | DEVOPS &
+            CLOUD ENGINEER
+          </p>
+          <p class="title">
+            <a href="mailto:kibsaim.mejia@protonmail.com">kibsaim.mejia@protonmail.com</a> | (52) 56-1052-1776
+          </p>
+          <p class="header-subtitle" id="typingText">
+            Delivering enterprise-scale solutions for global financial
+            institutions.
+          </p>
+          <p>
+            <span class="header-location">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+              Mexico City, Mexico | English & Spanish
+            </span>
+          </p>
+          <p>
+            <button
+              class="header-pdf-btn"
+              id="pdfExportBtnHeader"
+              aria-label="Download CV as PDF"
+              title="Download PDF Resume"
+            >
+              <i class="fas fa-file-pdf" aria-hidden="true"></i> Download PDF
+              Resume
+            </button>
+          </p>
+          <p>
+            <button
+              class="experience-badge"
+              id="experienceBadge"
+              aria-label="Experience - click to scroll to experience"
+            >
+              <i class="fas fa-rocket" aria-hidden="true"></i> Experience
+            </button>
+          </p>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="main-content">
+          <div>
+            <div class="card">
+              <h2>
+                <i class="fas fa-language" aria-hidden="true"></i>
+                Languages
+              </h2>
+              <div class="language">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+                <div><strong>Spanish</strong> &mdash; Native</div>
+              </div>
+              <div class="language">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+                <div>
+                  <strong>English</strong> &mdash; Professional Working
+                  Proficiency
+                </div>
+              </div>
+              <p class="text-muted" style="margin-top: 0.5rem">Technical Communication, Documentation</p>
+              <p class="text-muted" style="margin-top: 0.5rem">Presentations and Mentoring in International Teams</p>
+            </div>
+            <div class="card">
+              <h2>
+                <i class="fas fa-bolt" aria-hidden="true"></i> Core Skills
+              </h2>
+              <h3><i class="fas fa-code" aria-hidden="true"></i> Languages</h3>
+              <div class="skills-list">
+                <span class="skill-tag highlight-tag">JavaScript</span>
+                <span class="skill-tag highlight-tag">Java</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag highlight-tag">TypeScript</span>
+                <span class="skill-tag">Ruby</span>
+                <span class="skill-tag">Rust</span>
+                <span class="skill-tag">SQL</span>
+              </div>
+              <h3>
+                <i class="fas fa-laptop-code" aria-hidden="true"></i> Frontend
+              </h3>
+              <div class="skills-list">
+                <span class="skill-tag">npm</span>
+                <span class="skill-tag highlight-tag">Libraries</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Vue.js</span>
+                <span class="skill-tag">Angular</span>
+                <span class="skill-tag highlight-tag">Web Components</span>
+                <span class="skill-tag highlight-tag">Web Performance</span>
+                <span class="skill-tag">PWA</span>
+                <span class="skill-tag highlight-tag">V8 Engine</span>
+                <span class="skill-tag">Svelte</span>
+              </div>
+              <h3>
+                <i class="fas fa-server" aria-hidden="true"></i> Backend & Data
+              </h3>
+              <div class="skills-list">
+                <span class="skill-tag highlight-tag">Node.js</span>
+                <span class="skill-tag">Spring Boot</span>
+                <span class="skill-tag highlight-tag">REST APIs</span>
+                <span class="skill-tag">GraphQL</span>
+                <span class="skill-tag highlight-tag">Microservices</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag highlight-tag">MongoDB</span>
+                <span class="skill-tag">Redis</span>
+              </div>
+              <h3>
+                <i class="fas fa-cloud" aria-hidden="true"></i> Cloud & DevOps
+              </h3>
+              <div class="skills-list">
+                <span class="skill-tag highlight-tag">GCP</span>
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">Azure</span>
+                <span class="skill-tag highlight-tag">Docker</span>
+                <span class="skill-tag highlight-tag">Kubernetes</span>
+                <span class="skill-tag">Terraform</span>
+                <span class="skill-tag">Ansible</span>
+                <span class="skill-tag highlight-tag">Jenkins</span>
+                <span class="skill-tag">GitLab CI/CD</span>
+              </div>
+              <h3>
+                <i class="fas fa-vial" aria-hidden="true"></i> Testing &
+                Automation
+              </h3>
+              <div class="skills-list">
+                <span class="skill-tag highlight-tag">Puppeteer</span>
+                <span class="skill-tag">Automated Testing</span>
+                <span class="skill-tag highlight-tag">E2E Testing</span>
+                <span class="skill-tag">Playwright</span>
+                <span class="skill-tag">Visual Regression</span>
+                <span class="skill-tag highlight-tag">TDD</span>
+              </div>
+              <h3>
+                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                Architecture & Security
+              </h3>
+              <div class="skills-list">
+                <span class="skill-tag">Auth & Permissions</span>
+                <span class="skill-tag highlight-tag">System Design</span>
+                <span class="skill-tag highlight-tag">Data Modeling</span>
+                <span class="skill-tag">Zero-Downtime Ops</span>
+                <span class="skill-tag highlight-tag">App Security</span>
+              </div>
+            </div>
+
+            <div class="card" id="perf-hide-print">
+              <h2>
+                <i class="fas fa-tachometer-alt" aria-hidden="true"></i>
+                Performance Arsenal
+              </h2>
+              <div class="skills-list">
+                <span class="skill-tag highlight-tag">V8 Heap Snapshots</span>
+                <span class="skill-tag highlight-tag"
+                  >Memory Leak Detection</span
+                >
+                <span class="skill-tag">Lazy Loading</span>
+                <span class="skill-tag">CDN Strategy</span>
+                <span class="skill-tag">Critical Rendering Path</span>
+                <span class="skill-tag">Lighthouse</span>
+                <span class="skill-tag highlight-tag">WebAssembly</span>
+                <span class="skill-tag">Memory Management</span>
+              </div>
+              <div class="engine-expertise">
+                <h3>
+                  <i class="fas fa-cogs" aria-hidden="true"></i>
+                  Engine & Performance Expertise
+                </h3>
+                <span class="expertise-tag highlight-tag"
+                  >V8 Engine Optimization</span
+                >
+                <span class="expertise-tag">JIT Compilation</span>
+                <span class="expertise-tag highlight-tag"
+                  >Garbage Collection</span
+                >
+                <span class="expertise-tag">Browser DevTools</span>
+                <span class="expertise-tag">Testing Snapshots</span>
+                <span class="expertise-tag highlight-tag"
+                  >Performance Profiling</span
+                >
+                <span class="expertise-tag">Browser Rendering Pipeline</span>
+              </div>
+            </div>
+
+            <div class="card" id="tech-archives">
+              <h2>
+                <i class="fas fa-trophy" aria-hidden="true"></i> Selected Technical Achievements
+              </h2>
+              <div class="achievement-card">
+                <h4>
+                  <i class="fas fa-globe" aria-hidden="true"></i>
+                  Global Scale
+                </h4>
+                <p>
+                  Supported enterprise banking ecosystems serving
+                  <strong>millions of users</strong> with zero-downtime
+                  operational requirements.
+                </p>
+              </div>
+              <div class="achievement-card">
+                <h4>
+                  <i class="fas fa-microchip" aria-hidden="true"></i>
+                  WebAssembly Integration
+                </h4>
+                <p>
+                  Integrated <strong>WebAssembly modules</strong> into
+                  data-intensive browser applications for near-native
+                  computational performance.
+                </p>
+              </div>
+              <div class="achievement-card">
+                <h4>
+                  <i class="fas fa-code-branch" aria-hidden="true"></i>
+                  Infrastructure as Code
+                </h4>
+                <p>
+                  Automated infrastructure provisioning with
+                  <strong>Terraform</strong>, reducing provisioning workflows
+                  from days to minutes.
+                </p>
+              </div>
+              <div class="achievement-card">
+                <h4>
+                  <i class="fas fa-robot" aria-hidden="true"></i>
+                  Automation
+                </h4>
+                <p>
+                  Built automated regression, browser testing, and visual
+                  validation workflows using
+                  <strong>Puppeteer and Playwright</strong>.
+                </p>
+              </div>
+              <div class="achievement-card">
+                <h4>
+                  <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                  Secure Document Generation
+                </h4>
+                <p>
+                  Combined <strong>Puppeteer + pdf-lib</strong> to securely
+                  generate complex PDF reports from data-intensive web
+                  applications.
+                </p>
+              </div>
+              <div class="achievement-card">
+                <h4>
+                  <i class="fas fa-chart-line" aria-hidden="true"></i>
+                  Productivity
+                </h4>
+                <p>
+                  Contributed to consolidating two applications into one
+                  automated solution, increasing reported operational
+                  productivity by approximately <strong>150%</strong>.
+                </p>
+              </div>
+              <div class="achievement-card">
+                <h4>
+                  <i class="fas fa-users" aria-hidden="true"></i>
+                  Mentorship
+                </h4>
+                <p>
+                  Mentored developers in JavaScript performance, testing, CI/CD,
+                  and infrastructure practices, contributing to an estimated
+                  <strong>20% improvement</strong> in team code quality.
+                </p>
+              </div>
+            </div>
+
+            <div class="card" id="focus-hide-print">
+              <h2>
+                <i class="fas fa-crosshairs" aria-hidden="true"></i>
+                Professional Focus
+              </h2>
+              <div class="skills-list">
+                <span class="skill-tag highlight-tag">Performance First</span>
+                <span class="skill-tag highlight-tag">Automation Advocate</span>
+                <span class="skill-tag">Mentor & Leader</span>
+                <span class="skill-tag highlight-tag">Security Mindset</span>
+                <span class="skill-tag">Zero-Downtime Obsessed</span>
+                <span class="skill-tag">IaC Enthusiast</span>
+                <span class="skill-tag highlight-tag">Continuous Delivery</span>
+                <span class="skill-tag">Business-Driven Engineering</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card">
+              <h2>
+                <i class="fas fa-user-astronaut" aria-hidden="true"></i>
+                Professional Summary
+              </h2>
+              <p class="about-text">
+                Senior Full-Stack Software Engineer, Software Architect, and
+                DevOps Engineer with
+                <strong>15+ years of hands-on experience</strong> in software
+                development and
+                <strong
+                  >10+ years delivering enterprise web applications</strong
+                >
+                and digital platforms. Experienced in designing, developing, and
+                optimizing high-scale systems across the full software
+                development lifecycle, from frontend architecture and backend
+                services to cloud infrastructure, CI/CD, automated testing, and
+                production operations.
+              </p>
+              <p class="about-text">
+                Specialized in
+                <strong
+                  >JavaScript/TypeScript, Node.js, Java, Spring Boot, React,
+                  Vue, Angular, REST APIs, GraphQL, microservices, cloud
+                  architecture, DevOps, and web performance engineering</strong
+                >. Strong experience delivering solutions for global financial
+                institutions including <span class="client-tag">HSBC</span>, <span class="client-tag">BBVA</span>, <span class="client-tag">CitiBanamex</span> and <strong>more bank</strong> institutions.
+              </p>
+              <p class="about-text">
+                Experienced working with global-scale banking ecosystems serving
+                millions of users, zero-downtime operational requirements,
+                production triage, cloud services, API integration, data
+                architecture, application security, and continuous delivery.
+              </p>
+              <p class="about-text">
+                Performance-focused engineer with hands-on expertise in
+                <strong
+                  >V8 memory analysis, memory leak detection, browser rendering,
+                  Web Performance Optimization, WebAssembly, automated browser
+                  testing, and CI/CD quality automation</strong
+                >.
+              </p>
+              <p class="about-text">
+                Mentor-oriented technical leader who combines architecture,
+                hands-on engineering, business logic, and cross-functional
+                collaboration to deliver scalable, secure, reliable, and
+                maintainable systems.
+              </p>
+              <div class="quote-block">
+                <i
+                  class="fas fa-quote-left"
+                  style="color: var(--secondary); margin-right: 8px"
+                  aria-hidden="true"
+                ></i>
+                Everything is programmable.
+              </div>
+            </div>
+
+            <div class="card" id="professionalExperienceCard">
+              <h2>
+                <i class="fas fa-briefcase" aria-hidden="true"></i>
+                Professional Experience
+              </h2>
+
+              <div class="experience-item">
+                <div class="company">HSBC</div>
+                <div class="role">
+                  Senior Software Engineer — Global Applications & Production Triage
+                </div>
+                <div class="duration">
+                  <i class="far fa-clock" aria-hidden="true"></i>
+                  2024 – 2025
+                </div>
+                <ul class="description">
+                  <li>
+                    Supported applications and services operating at
+                    <strong>global banking scale</strong>, within an ecosystem
+                    serving
+                    <span class="metric-highlight"
+                      >millions of users worldwide</span
+                    >.
+                  </li>
+                  <li>
+                    Participated in global production triage, investigating
+                    incidents across frontend, backend, APIs, cloud
+                    infrastructure, and distributed services.
+                  </li>
+                  <li>
+                    Collaborated with global engineering teams to diagnose
+                    incidents, coordinate remediation, and deploy production
+                    changes under <strong>zero-downtime</strong> operational
+                    requirements.
+                  </li>
+                  <li>
+                    Implemented frontend, backend integration, API, UX, data
+                    visualization, and business logic changes across multiple
+                    enterprise applications using
+                    <strong>Vue.js and React</strong>.
+                  </li>
+                  <li>
+                    Worked with <strong>Google Cloud Platform (GCP)</strong> and
+                    participated in architecture and cloud-cost decisions
+                    involving scalability, infrastructure, and operational
+                    requirements.
+                  </li>
+                  <li>
+                    Contributed to consolidating two separate applications into
+                    a unified solution, automating an end-to-end service
+                    workflow and increasing reported operational productivity by
+                    approximately <span class="metric-highlight">150%</span>.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="experience-item">
+                <div class="company">IBM</div>
+                <div class="role">
+                  Senior Frontend Architect — Full-Stack Architect — Technical
+                  Lead
+                </div>
+                <div class="duration">
+                  <i class="far fa-clock" aria-hidden="true"></i>
+                  2020 – 2022
+                </div>
+                <div class="company">BBVA</div>
+                <ul class="description">
+                  <li>
+                    Architected and developed a
+                    <strong
+                      >global internal enterprise application from the ground
+                      up</strong
+                    >
+                    supporting complex banking business logic and operational
+                    workflows.
+                  </li>
+                  <li>
+                    Designed frontend architecture for an enterprise application
+                    supporting
+                    <span class="metric-highlight"
+                      >thousands of globally distributed users</span
+                    >
+                    with approximately
+                    <span class="metric-highlight">99%+ availability</span>.
+                  </li>
+                  <li>
+                    Designed administrative systems for user management,
+                    permissions, access control, and large-scale data
+                    operations.
+                  </li>
+                  <li>
+                    Architected permission systems combining indexed datasets,
+                    permission tables, and
+                    <strong>cloud-based validation services</strong>.
+                  </li>
+                  <li>
+                    Integrated
+                    <strong>Google Cloud Platform and Cloud Functions</strong>
+                    into enterprise application workflows.
+                  </li>
+                  <li>
+                    Designed and integrated APIs connecting frontend
+                    applications with backend services and internal systems.
+                  </li>
+                  <li>
+                    Designed automated regression workflows covering complex
+                    decision trees and business-critical user journeys using
+                    <strong>Puppeteer</strong>.
+                  </li>
+                  <li>
+                    Combined <strong>Puppeteer + pdf-lib</strong> to securely
+                    generate complex PDF reports in controlled server
+                    environments.
+                  </li>
+                </ul>
+                <div class="company">AEP</div>
+                <ul class="description" style="margin-top: 0.3rem">
+                  <li>
+                    Developed data visualization interfaces for large and
+                    complex datasets.
+                  </li>
+                  <li>
+                    Implemented interactive charts and large-scale data tables.
+                  </li>
+                  <li>
+                    Built server-side PDF generation workflows using
+                    <strong>Puppeteer and pdf-lib</strong>, transforming complex
+                    web-based visualizations into structured, presentation-ready
+                    PDF reports.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="experience-item">
+                <div class="company">Nova Solutions</div>
+                <div class="role">
+                  Senior Frontend / Mobile Application Engineer
+                </div>
+                <div class="duration">
+                  <i class="far fa-clock" aria-hidden="true"></i>
+                  2019 – 2020
+                </div>
+                <div class="company">CitiBanamex</div>
+                <ul class="description">
+                  <li>
+                    Developed a
+                    <strong
+                      >mobile customer onboarding platform from the ground
+                      up</strong
+                    >
+                    for a major financial institution.
+                  </li>
+                  <li>
+                    Designed complex multi-step onboarding workflows with
+                    extensive decision trees and business rules.
+                  </li>
+                  <li>
+                    Integrated
+                    <strong
+                      >OCR, identity document recognition, facial recognition,
+                      and customer data validation services</strong
+                    >.
+                  </li>
+                  <li>
+                    Developed reusable internal frontend libraries and NPM
+                    packages to standardize application behavior.
+                  </li>
+                  <li>
+                    Created a custom gesture-driven carousel component based on
+                    interaction patterns from Hammer.js.
+                  </li>
+                  <li>
+                    Implemented frontend validation and secure user workflows
+                    under
+                    <strong>strict financial security requirements</strong>.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="experience-item">
+                <div class="company">Grupo TV Promo</div>
+                <div class="role">Web / Frontend Lead</div>
+                <div class="duration">
+                  <i class="far fa-clock" aria-hidden="true"></i>
+                  2016 – 2019
+                </div>
+                <ul class="description">
+                  <li>
+                    Led web and frontend development across enterprise,
+                    government, pharmaceutical, consumer, and marketing
+                    projects.
+                  </li>
+                  <li>
+                    Designed and developed websites, interactive applications,
+                    promotional platforms, surveys, and browser-based games.
+                  </li>
+                  <li>
+                    Worked with PHP, HTML, JavaScript, backend integration,
+                    databases, and web infrastructure.
+                  </li>
+                  <li>
+                    Managed self-hosted and rented server environments
+                    supporting digital campaigns.
+                  </li>
+                  <li>
+                    Delivered high-availability websites and interactive
+                    experiences for large promotional launches.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="experience-item" id="mind-hide-print">
+                <div class="company">Mind Productions</div>
+                <div class="role">Art Director / Web Developer</div>
+                <div class="duration">
+                  <i class="far fa-clock" aria-hidden="true"></i>
+                  2013 – 2016
+                </div>
+                <ul class="description">
+                  <li>
+                    Designed and developed event websites, digital platforms,
+                    visual identities, and promotional campaigns.
+                  </li>
+                  <li>
+                    Created digital and visual production for events ranging
+                    from private experiences to large-scale productions with
+                    thousands of attendees.
+                  </li>
+                  <li>
+                    Delivered integrated web, graphic design, projection, and
+                    multimedia solutions for festivals, concerts, DJs, and
+                    entertainment events.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="experience-item" id="freelance-hide-print">
+                <div class="company">Freelance</div>
+                <div class="role">Web Developer / Computer Technician</div>
+                <div class="duration">
+                  <i class="far fa-clock" aria-hidden="true"></i>
+                  2006 – 2012
+                </div>
+                <ul class="description">
+                  <li>
+                    Began professional work with computers and web technology at
+                    approximately <strong>13–14 years old</strong>.
+                  </li>
+                  <li>
+                    Provided computer repair, operating system installation,
+                    software configuration, networking, and technical support.
+                  </li>
+                  <li>
+                    Developed websites and web applications using HTML, CSS,
+                    JavaScript, PHP, Flash, and ActionScript during the
+                    pre-HTML5 era.
+                  </li>
+                  <li>
+                    Delivered websites and digital solutions for institutional,
+                    private, and commercial clients.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card" id="dev-hide-print">
+              <h2>
+                <i class="fas fa-certificate" aria-hidden="true"></i>
+                Professional Development
+              </h2>
+              <p style="font-weight: 700; margin-bottom: 0.3rem">
+                CS50x — Introduction to Computer Science
+              </p>
+              <p class="text-muted">Harvard University</p>
+              <p class="text-muted" style="font-size: 0.85rem">
+                Algorithms, data structures, memory, security, software
+                engineering, web development — C, Python, SQL, JavaScript, HTML,
+                CSS.
+              </p>
+              <p style="margin-top: 0.8rem; font-weight: 600">
+                Additional Technical Training:
+              </p>
+              <div class="skills-list">
+                <span class="skill-tag highlight-tag">Node.js</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag highlight-tag">Vue.js</span>
+                <span class="skill-tag">Svelte</span>
+                <span class="skill-tag highlight-tag">Angular</span>
+                <span class="skill-tag highlight-tag">TypeScript</span>
+                <span class="skill-tag">Bun</span>
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag highlight-tag">Spring Boot</span>
+                <span class="skill-tag">CI/CD</span>
+                <span class="skill-tag">Cloud Architecture</span>
+                <span class="skill-tag highlight-tag">Docker</span>
+                <span class="skill-tag highlight-tag">Kubernetes</span>
+              </div>
+            </div>
+
+            <div class="card" id="edu-hide-print">
+              <h2>
+                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                Education
+              </h2>
+              <p style="font-weight: 700; margin-bottom: 0.3rem">
+                Universidad Autónoma Metropolitana (UAM)
+              </p>
+              <p class="text-muted">
+                Communication Sciences — Art & Digital Design / Computer Studies
+                Focus
+              </p>
+              <p class="text-muted">2012 – 2016 | Incomplete Studies</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button
+      class="scroll-top"
+      id="scrollTop"
+      aria-label="Scroll to top"
+      title="Scroll to top"
+    >
+      <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <footer>
+      <div class="container">
+        <p>
+          Antonio Kibsaim Mejia Zepeda — Senior Full-Stack Software Engineer |
+          Software Architect | DevOps & Cloud Engineer
+        </p>
+        <div class="footer-links">
+          <a
+            href="https://github.com/KibsaimMejia"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-github" aria-hidden="true"></i> GitHub
+          </a>
+          <a
+            href="https://linkedin.com/in/kibsaim-mejia"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+          </a>
+          <a href="mailto:kibsaim.mejia@protonmail.com">
+            <i class="fas fa-envelope" aria-hidden="true"></i> Contact
+          </a>
+          <button
+            class="footer-pdf-btn"
+            id="pdfExportBtn"
+            aria-label="Download CV as PDF"
+            title="Download PDF (text-selectable)"
+          >
+            <i class="fas fa-file-pdf" aria-hidden="true"></i>
+            Download PDF Resume
+          </button>
+        </div>
+        <p class="copyright" id="copyrightText"></p>
+        <p
+          style="
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+            color: rgba(255, 255, 255, 0.5);
+          "
+        >
+          Specializing in Web Performance, V8 Engine Optimization, and DevOps
+          Automation
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        const loader = document.getElementById("loader");
+        let hideLoaderTimeout;
+        function hideLoader() {
+          if (hideLoaderTimeout) clearTimeout(hideLoaderTimeout);
+          hideLoaderTimeout = setTimeout(() => {
+            loader.classList.add("loader-hidden");
+            setTimeout(() => {
+              if (loader) loader.style.display = "none";
+            }, 500);
+          }, 800);
+        }
+        window.addEventListener("load", hideLoader);
+        setTimeout(hideLoader, 2500);
+
+        function createFloatingCircles() {
+          const count = 15;
+          const fragment = document.createDocumentFragment();
+          for (let i = 0; i < count; i++) {
+            const circle = document.createElement("div");
+            circle.className = "floating-circle";
+            const size = Math.floor(Math.random() * 40) + 20;
+            const left = Math.random() * 100;
+            const top = Math.random() * 100;
+            const delay = Math.random() * 20;
+            const duration = Math.random() * 20 + 20;
+            circle.style.cssText = `
+                            width: ${size}px;
+                            height: ${size}px;
+                            left: ${left}%;
+                            top: ${top}%;
+                            animation-delay: -${delay}s;
+                            animation-duration: ${duration}s;
+                        `;
+            fragment.appendChild(circle);
+          }
+          document.body.appendChild(fragment);
+        }
+        createFloatingCircles();
+
+        const themeToggle = document.getElementById("themeToggle");
+        const prefersDarkScheme = window.matchMedia(
+          "(prefers-color-scheme: dark)",
+        );
+        const currentTheme =
+          localStorage.getItem("theme") ||
+          (prefersDarkScheme.matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", currentTheme);
+        themeToggle.addEventListener("click", function () {
+          const theme = document.documentElement.getAttribute("data-theme");
+          const newTheme = theme === "light" ? "dark" : "light";
+          document.documentElement.setAttribute("data-theme", newTheme);
+          localStorage.setItem("theme", newTheme);
+          this.style.transform = "rotate(360deg) scale(1.1)";
+          setTimeout(() => {
+            this.style.transform = "";
+          }, 300);
+        });
+
+        const scrollTopBtn = document.getElementById("scrollTop");
+        window.addEventListener(
+          "scroll",
+          function () {
+            scrollTopBtn.classList.toggle("show", window.scrollY > 300);
+          },
+          { passive: true },
+        );
+        scrollTopBtn.addEventListener("click", function () {
+          this.style.transform = "scale(0.9)";
+          window.scrollTo({ top: 0, behavior: "smooth" });
+          setTimeout(() => {
+            this.style.transform = "";
+          }, 300);
+        });
+
+        document
+          .querySelectorAll(".footer-pdf-btn, .header-pdf-btn")
+          .forEach((btn) => {
+            btn.addEventListener("click", function () {
+              showNotification(
+                "📄 Opening print dialog — Saving PDF"
+              );
+
+              const originalTitle = document.title;
+              document.title = "KibsaimMejiaCV2026";
+
+              setTimeout(() => {
+                window.print();
+                document.title = originalTitle;
+              }, 600);
+            });
+          });
+
+        document
+          .querySelectorAll(".skill-tag, .expertise-tag")
+          .forEach((tag) => {
+            tag.addEventListener("click", function (e) {
+              const ripple = document.createElement("span");
+              const rect = this.getBoundingClientRect();
+              const size = Math.max(rect.width, rect.height);
+              ripple.style.cssText = `
+                        position: absolute;
+                        border-radius: 50%;
+                        background: rgba(255, 255, 255, 0.7);
+                        transform: scale(0);
+                        animation: ripple-animation 0.6s linear;
+                        width: ${size}px;
+                        height: ${size}px;
+                        top: ${e.clientY - rect.top - size / 2}px;
+                        left: ${e.clientX - rect.left - size / 2}px;
+                        pointer-events: none;
+                      `;
+              this.appendChild(ripple);
+              setTimeout(() => ripple.remove(), 600);
+            });
+          });
+
+        document.querySelectorAll(".experience-item").forEach((item) => {
+          item.addEventListener("mouseenter", function () {
+            this.style.transform = "translateX(10px)";
+          });
+          item.addEventListener("mouseleave", function () {
+            this.style.transform = "translateX(0)";
+          });
+        });
+
+        document.querySelectorAll(".footer-links a").forEach((link) => {
+          link.addEventListener("mouseenter", function () {
+            this.style.transform = "translateY(-5px) scale(1.05)";
+          });
+          link.addEventListener("mouseleave", function () {
+            this.style.transform = "translateY(0) scale(1)";
+          });
+        });
+
+        document.getElementById("copyrightText").textContent =
+          `© ${new Date().getFullYear()} Antonio Kibsaim Mejia Zepeda — Programmer`;
+
+        function showNotification(message) {
+          const existing = document.querySelector(".notification");
+          if (existing) existing.remove();
+          const notification = document.createElement("div");
+          notification.className = "notification";
+          notification.textContent = message;
+          notification.setAttribute("role", "status");
+          notification.setAttribute("aria-live", "polite");
+          document.body.appendChild(notification);
+          setTimeout(() => {
+            if (notification.parentNode) notification.remove();
+          }, 3000);
+        }
+
+        const titleElement = document.querySelector(".header-subtitle");
+        if (titleElement) {
+          const originalText = titleElement.textContent.trim();
+          titleElement.innerHTML = "";
+          const textSpan = document.createElement("span");
+          const cursorSpan = document.createElement("span");
+          cursorSpan.className = "typing-cursor";
+          cursorSpan.textContent = "|";
+          cursorSpan.setAttribute("aria-hidden", "true");
+          titleElement.appendChild(textSpan);
+          titleElement.appendChild(cursorSpan);
+
+          let i = 0;
+          function typeWriter() {
+            if (i < originalText.length) {
+              textSpan.textContent += originalText.charAt(i);
+              i++;
+              const speed = Math.random() * 30 + 40;
+              setTimeout(typeWriter, speed);
+            } else {
+              cursorSpan.style.opacity = "0";
+              setTimeout(() => cursorSpan.remove(), 500);
+            }
+          }
+          setTimeout(typeWriter, 1800);
+        }
+
+        const experienceBadge = document.getElementById("experienceBadge");
+        if (experienceBadge) {
+          experienceBadge.addEventListener("click", function () {
+            this.style.transform = "scale(0.95)";
+            setTimeout(() => {
+              this.style.transform = "";
+            }, 200);
+            const experienceSection = document.getElementById(
+              "professionalExperienceCard",
+            );
+            if (experienceSection) {
+              const yOffset = -20;
+              const y =
+                experienceSection.getBoundingClientRect().top +
+                window.pageYOffset +
+                yOffset;
+              window.scrollTo({ top: y, behavior: "smooth" });
+            }
+          });
+          experienceBadge.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        }
+
+        document.querySelectorAll(".expertise-tag").forEach((tag) => {
+          tag.addEventListener("mouseenter", function () {
+            this.style.transform = "scale(1.05)";
+            this.style.boxShadow = "0 4px 8px rgba(0,0,0,0.2)";
+          });
+          tag.addEventListener("mouseleave", function () {
+            this.style.transform = "scale(1)";
+            this.style.boxShadow = "none";
+          });
+        });
+
+        document.querySelectorAll(".scroll-top, .theme-btn").forEach((el) => {
+          el.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
