@@ -172,7 +172,7 @@ Mentor-oriented technical leader who combines architecture, hands-on engineering
 ## EDUCATION
 **Universidad Autónoma Metropolitana (UAM)**  
 *Communication Sciences — Art & Digital Design / Computer Studies Focus*  
-*2012 – 2016 | Incomplete Studies*
+*2012 – 2016*
 
 ---
 
