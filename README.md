@@ -61,7 +61,7 @@ Mentor-oriented technical leader who combines architecture, hands-on engineering
 ---
 
 ### IBM
-**Senior Frontend Architect — Full-Stack Architect — Technical Lead**  
+**Senior Full-Stack Architect — DevOps — Technical Lead**  
 *2020 – 2022*  
 *Client: BBVA*
 
