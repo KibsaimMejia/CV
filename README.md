@@ -40,7 +40,7 @@ Mentor-oriented technical leader who combines architecture, hands-on engineering
 ## PROFESSIONAL EXPERIENCE
 
 ### HSBC
-**Senior Software Engineer — Global Applications & Production Triage**  
+**DevOps Architect - Software Engineer — Global Applications & Production Triage**  
 *2024 – 2025*
 
 - Supported applications and services operating at global banking scale, within an ecosystem serving millions of users worldwide.
